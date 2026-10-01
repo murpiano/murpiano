@@ -1,31 +1,35 @@
 ## Bogdan Trotsenko
 
-Engineer who writes code. Saint Petersburg.
+Engineer and frontend developer. Saint Petersburg.
 
-Seven years in satellite and radio navigation: I calibrate navigation systems,
-measure, and judge accuracy — and I write the software that does that work
-instead of a person. In 2025 one of those programs replaced the operator in a
-measurement loop entirely, taking it from 30 reports an hour to 3,600.
+I take on hard problems and finish them, including the ones other people put
+down. I like optimising processes and building tools that are actually
+convenient to work with.
 
-I came to the web through a year at HTML Academy and a four-month internship,
-and I kept going. What pulls me is the place where an interface has to carry
-data: maps, timelines, charts, internal panels. Seven years of measurement
-taught me that drawing something beautiful and not lying with it are two
-different jobs, and the second one is harder.
+My day job is satellite and radio navigation: calibrating navigation systems,
+running measurements, assessing accuracy, and running the department's work on
+that. In 2025 I automated one part of it. The calibration and accuracy estimate
+used to be 30 reports an hour worked through by hand; the program I wrote does
+3,600 an hour, drops outliers, filters noise and draws the chart, with no
+operator in the loop. It is in use at the company for the tasks it covers.
 
-Everything here is public, and every repository says plainly what it is: my own
-work is my own, training projects are marked as training, with the course, the
-dates and what came with the task.
+I have been writing TypeScript and React since 2024 — a year of courses at HTML
+Academy, then a four-month internship. Ten projects are public here. Five more
+are closed under NDA: three from the internship, two from my day job.
+
+Every repository says plainly what it is. My own work is my own; training
+projects are marked as training, with the course, the dates, and what came with
+the task.
 
 ### Things I built
 
 | | |
 |---|---|
-| **[my-world](https://github.com/murpiano/my-world)** · [live](https://murpiano.github.io/my-world/) | A living archive of your travel history on an interactive night globe. Trips by date and place, albums that open where you were, a timeline of every year. React, TypeScript, Canvas 2D — no WebGL, no map tiles, no server. |
-| **[kysaro](https://github.com/murpiano/kysaro)** · [npm](https://www.npmjs.com/package/kysaro) | A strict commit message linter. Rules in JSON with schemas, so your editor autocompletes them. One package, one `commit-msg` hook, a clear report with line numbers and a suggested header. |
-| **[murpiano-server](https://github.com/murpiano/murpiano-server)** · [live API](https://murpiano-server.onrender.com) | A small backend several of my frontends share. Drop in JSON files, get a REST API: json-server with Express routers on top, in TypeScript. |
+| **[my-world](https://github.com/murpiano/my-world)** · [live](https://murpiano.github.io/my-world/) | A living archive of your travel history on an interactive night globe. Trips by date and place, albums that open where you were, a timeline of every year. |
+| **[kysaro](https://github.com/murpiano/kysaro)** · [npm](https://www.npmjs.com/package/kysaro) | A strict commit message linter. Rules in JSON with schemas, so your editor autocompletes them. One package, one `commit-msg` hook, a report with line numbers and a suggested header. |
+| **[murpiano-server](https://github.com/murpiano/murpiano-server)** · [live API](https://murpiano-server.onrender.com) | A small backend several of my frontends share. Drop in JSON files, get a REST API: json-server with Express routers on top. |
 
-### Learning projects
+### Training projects
 
 [`_camera`](https://github.com/murpiano/_camera) — graduation project of the HTML Academy accelerator, 2025 ·
 [`_six-cities`](https://github.com/murpiano/_six-cities) ·
@@ -34,6 +38,12 @@ dates and what came with the task.
 [`_kekstagram`](https://github.com/murpiano/_kekstagram) ·
 [`_foodieland`](https://github.com/murpiano/_foodieland) ·
 [`_future-tech`](https://github.com/murpiano/_future-tech)
+
+### Closed work
+
+Five more projects are under NDA and cannot be shown: three services built
+during the internship (booking, property search, travel companions — Next.js,
+TypeScript, Zustand, TanStack Query) and two from my day job.
 
 ### Stack
 
